@@ -1,0 +1,49 @@
+#content {
+  width: 300px;
+  height: 300px;
+}
+
+.formElement {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header h1 {
+  /* Display h1 on the left side of the header */
+  order: 1;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#blogForm {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: gray;
+}

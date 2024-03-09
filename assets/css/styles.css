@@ -1,0 +1,22 @@
+/* Light and dark mode functionality */
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/* Dark Mode styles */
+body.dark-mode {
+  --background-color: #333;
+  --text-color: #fff;
+}
+
+#theme-toggle {
+  margin-bottom: 3px;
+  height: 23px;
+  margin-left: 5px;
+  order: 2;
+}

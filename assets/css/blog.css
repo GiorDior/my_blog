@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  border: 3px solid black;
+  margin-bottom: 5px;
+}
+.hr {
+  width: 100%;
+}
+.content {
+  margin-left: 20px;
+}
+
+.username {
+  margin-bottom: 5px;
+  color: darkgray;
+}
+
+#contact {
+  margin-left: 0px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+#backButton {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: right;
+}
+
+header h1 {
+  display: flex;
+  justify-content: left;
+}

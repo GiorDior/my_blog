@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My blog</title>
+    <!-- Link Css files -->
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Add header -->
+    <header>
+      <h1>My First Blog</h1>
+      <button id="theme-toggle">☀️</button>
+    </header>
+
+    <!-- Add Main section -->
+    <main>
+      <form id="blogForm" onsubmit="return validateFrom()">
+        <h2>What's on your mind?</h2>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+          required
+        /><br /><br />
+        <label for="title">Title:</label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Title"
+          required
+        /><br /><br />
+
+        <label for="content">Content:</label>
+        <input type="text" id="content" name="content" required /><br /><br />
+        <!-- Submit Button -->
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+
+    <!-- Link JS Files - form and logic -->
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
+  </body>
+</html>
